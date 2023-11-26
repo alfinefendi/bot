@@ -1,0 +1,20 @@
+
+
+####
+POST http://localhost:5000/users
+Content-Type: application/json
+{
+    "name" : "John Doe",
+    "email": "John@gmail.com",
+    "gender": "Male"
+}
+
+
+####
+PATCH  http://localhost:5000/users/1
+Content-Type: application/json
+{
+    "name" : "Alfin",
+    "email": "alfin@gmail.com",
+    "gender": "Male"
+}
