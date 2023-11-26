@@ -1,5 +1,5 @@
 import {Sequelize} from "sequelize";
-const db = new Sequelize('crud_db', 'alfinefendi', 'takeran15', {
+const db = new Sequelize('crud_db', 'root', '', {
     host : 'localhost',
     dialect: 'mysql'
 });
