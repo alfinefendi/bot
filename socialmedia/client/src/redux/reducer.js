@@ -10,4 +10,4 @@ const rootReducer = combineReducers({
 });
 
 
-export { rootReducer }
+export { rootReducer };
